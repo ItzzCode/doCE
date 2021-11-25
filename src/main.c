@@ -13,5 +13,5 @@ int main(void){
 		os_SetCursorPos(1,7);
 		os_PutStrFull("Good morning!");
 	}
-	sleep(5);
+	while(!os_GetCSC());
 }
